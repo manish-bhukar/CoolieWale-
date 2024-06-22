@@ -6,6 +6,8 @@ import Signup from './Component/Signup';
 import OrderList from './Component/AllOrders';
 import OrderUpdate from './Component/Orderupdate';
 import Location from './Component/Location';
+import LiveTrain from './Component/LiveTrain';
+import LiveTrainForm from './Component/livetrainpage';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
           <Route path="/orders" element={<OrderList/>}/>
           <Route path="/orders/:orderId/update" element={<OrderUpdate />} />
           <Route path="/location" element={<Location/>} />
+          <Route path="/live-train-info/:trainNo/:date" element={<LiveTrain/>} />
+          <Route path="train-live" element={<LiveTrainForm/>} />
         </Routes>
       </Router>
     </div>

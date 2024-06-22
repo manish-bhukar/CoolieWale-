@@ -1,0 +1,6 @@
+{"level":"error","message":"[getLiveTrainInfo] trainNo: [object Object],date:[object Object], error: connect ECONNREFUSED 3.109.210.229:5000","service":"user-service"}
+{"level":"error","message":"[getLiveTrainInfo] trainNo: [object Object],date:[object Object], error: connect ECONNREFUSED 3.109.210.229:5000","service":"user-service"}
+{"level":"error","message":"[getLiveTrainInfo] trainNo: [object Object],date:[object Object], error: connect ECONNREFUSED 3.109.210.229:5000","service":"user-service"}
+{"level":"error","message":"[getLiveTrainInfo] trainNo: [object Object],date:[object Object], error: connect ECONNREFUSED 3.109.210.229:5000","service":"user-service"}
+{"level":"error","message":"[getLiveTrainInfo] trainNo: [object Object],date:[object Object], error: Request failed with status code 400","service":"user-service"}
+{"level":"error","message":"[getLiveTrainInfo] trainNo: [object Object],date:[object Object], error: Request failed with status code 400","service":"user-service"}
