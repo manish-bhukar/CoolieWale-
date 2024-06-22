@@ -7,6 +7,7 @@ const orders=require('./Controller/controller.js');
 const UserRoute=require('./Routes/userroute.js');
 const AllOrders=require('./Routes/Allorder.js')
 const ordersRouter=require('./Controller/Orderupdate.js')
+const banarasCoordinatesRoute=require('./Routes/locationroutes.js');
 const app = express();
 const port = 5000;
 require("dotenv").config();
@@ -22,6 +23,7 @@ mongoose.connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true })
 
   app.use('/orders',orders);
   app.use("/user",UserRoute);
+  app.use('/api', banarasCoordinatesRoute);
   app.use('/allorders', AllOrders);
   app.use('/updateorders', ordersRouter);
 app.get('/', (req, res) => {
